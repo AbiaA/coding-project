@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adosia Shea Butter Limited</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-------This is the title section----->
+    <header>
+        <div class="title">
+            Adosia Shea Butter Limited
+        </div>
+
+    <div class ="subtitle"> ASBL, the place for all of your reliable Shea Butter needs! </div>
+        
+<!-------Image Content----->
+<div class="image">        
+<img src="shea-butter-benefits-uses-1.jpg" width="520" height="400">
+<img src="il_1140xN.1289115820_2444.jpg" width="520" height="400">
+</div> 
+       <!-------The body section of the site----->
+        <div class="container">
+
+            <div class="sheabutter">
+                <h1>What is Shea Butter?</h1>
+                <p> Shea butter is very thick and solid at room temperature but has a buttery rich consistency that
+                    makes it ideal for use as a natural eye cream, lip balm, or body butter. Many studies show that it
+                    is especially good at penetrating the skin and contains 60% fat, making it highly emollient.</p>
+
+                <p> Thanks to some other special properties, shea butter does more than moisturize, it delivers key
+                    anti-inflammatory and anti-aging components right into the skin.</p>
+            </div>
+
+            <div class="sheabutter">
+                <h2>What are the Benefits of Shea Butter </h2>
+                <p> Moisturizing: The concentration of natural vitamins and fatty acids in shea butter makes it
+                    incredibly nourishing and moisturizing for skin. It is often used to remedy dry skin and to help
+                    protect the skin’s natural oils.</p>
+                <p> Reduces Inflammation: A 2010 study found that due to its cinnamic acid and other natural
+                    properties, shea butter was anti-inflammatory. One compound in particular, lupeol cinnamate, was
+                    found to reduce skin inflammation and even potentially help avoid skin mutations. This also makes
+                    it beneficial for some people with acne.</p>
+                <p> Skin Smoothing: Shea butter aids in the skin’s natural collagen production and contains oleic,
+                    stearic, palmitic, and linolenic acids that protect and nourish the skin to prevent drying. With
+                    long-term use, many people report skin softening and strengthening as well as wrinkle reduction.</p>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="sheabutter">
+                <h2>Ways to Use Shea Butter</h2>
+                <ol>
+                    <li>By itself for face and body as a natural moisturizer</li>
+                    <li>In a shea butter lotion bar stick for easy use</li>
+                    <li>After sun or beach exposure to replenish skin</li>
+                    <li>Alone or in a pregnancy salve to ward off stretch marks</li>
+                    <li>As a natural cuticle cream </li>
+                </ol>
+            </div>
+
+            <div class="sheabutter">
+                <h2>Why buy my Shea Butter? </h2>
+                <ul>
+                    <li> It is from the source</li>
+                    <li> It is homemade </li>
+                    <li> It is trusted </li>
+                    <li> I can eat it raw</li>
+                    <li> I cook with it </li>
+                </ul>
+            </div>
+        </div>
+    <div class="info">
+        For more information, please do not hesistate to contact us by using the form below. We will respond within 24 hours.       
+    </div>   
+
+<!-------Form----->
+<div class="form-group">
+    <label for="contact-name">Name</label>
+    <input type="text" class="form-control" id="contact-name" name="name"       placeholder="Enter your name.." onkeyup='validateName()'>
+    <span class='error-message' id='name-error'></span>
+  </div>
+
+  <div class="form-group">
+    <label for="contact-phone">Phone Number</label>
+    <input type="tel" class="form-control" id="contact-phone" name="phone" placeholder="Ex: 1231231234" onkeyup='validatePhone()'>
+    <span class='error-message' id='phone-error'></span>
+  </div>
+
+  <div class="form-group">
+    <label for="contact-email">Email address</label>
+    <input type="email" class="form-control" id="contact-email" name="email" placeholder="Enter Email" onkeyup='validateEmail()'>
+    <span class='error-message' id='email-error'></span>
+  </div>   
+
+  <div class="form-group">
+    <label for='contactMessage'>Your Message</label>
+    <textarea class="form-control" rows="5" id='contact-message'  name='message'  placeholder="Enter a brief message" onkeyup='validateMessage()'></textarea>
+    <span class='error-message' id='message-error'></span>
+  </div>
+  
+<div class="submit"> 
+<button onclick='validateForm()' class="btn btn-default">Submit</button>
+<span class='error-message' id='submit-error'></span>
+</form>
+</div>
+<!-------Footer----->
+        <div>
+            <footer class="footer">
+                <p> The content on this page is not approved by the FDA and is therefore not intended for the purposes of
+                    curing, preventing, diagnosing or treating disease.</p>
+                <span>&copy;Adosia Shea Butter Limited (ASBL)</span>
+                
+                <script src="script.js"></script>
+        </div>
+    </header>
+    </footer>
+</body>
+
+</html>

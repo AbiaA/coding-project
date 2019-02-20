@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+/*==== Styling of the title====*/
+.title{ 
+ font-size: 80px;
+ margin: 0;  
+ padding: 0.3em;
+ background: #5fcf80;
+ border-radius: 25px;
+ display: block;
+ text-align: center;
+ border-width: 1px;
+ border: solid gray;
+ width:100%;
+}
+
+.subtitle{
+  font-size: 45px;
+  display: block;
+  text-align: center; 
+  padding: 0.2em;
+}
+
+/* =========  Image Style ==========*/
+.image {
+  margin: 10px;
+  padding: 1em;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+/*==== This is the Style used for the content of the website====*/
+
+.sheabutter{ 
+  margin: 5px;
+  padding: 1em .5em;
+  background: #e8eeef;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 1em;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.info{
+  margin: 5px;
+  padding: 1em;
+}
+
+/* Style for the submission form*/
+
+.submit{
+ font-size: 80px; 
+ border-radius: 2px;
+ display: block;
+ font-size: 30px;
+}
+
+.btn {
+background: #5fcf80
+}
+
+/*==================== Footer ===================*/
+.footer{
+  background:#e8eeef;
+  display: block;
+  text-align: center;
+}
+
+/* ============ Media Query =============*/
+@media screen and (min-width: 450px) {
+}
+    form {
+      max-width: 480px;
+    }
+
+.container {
+  display: flex;
+  align-items: space-between;
+  justify-content: space-between;
+}
