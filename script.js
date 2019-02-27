@@ -1,3 +1,4 @@
+// Creating a Contact us form
 function validateName() {
 
     var name = document.getElementById('contact-name').value;
@@ -107,7 +108,7 @@ var subtitle;
 
 function changecolors() {
     subtitle = 1;
-    setInterval(change, 1000);
+    setInterval(change, 3000);
 }
 
 function change() {
@@ -122,7 +123,8 @@ function change() {
         subtitle = 1;
     }
 
-    document.subtitle.style.background = color;
+    document.getElementById("subtitle").style.backgroundColor = color;
+    //alert(document.getElementById("subtitle").style.backgroundColor);
 }
 
 document.onreadystatechange = (event) => {
