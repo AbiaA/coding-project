@@ -26,8 +26,18 @@
 .image {
   margin: 10px;
   padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img {
+  width:100%;
+  max-height: 50%;
   flex-grow: 1;
   flex-basis: 0;
+  min-width:350px; 
+  padding: 1em .5em;
+  display: inline-block;
 }
 
 /*==== This is the Style used for the content of the website====*/
@@ -41,6 +51,7 @@
   font-size: 1em;
   flex-grow: 1;
   flex-basis: 0;
+  min-width:350px;
 }
 
 .info{
@@ -70,13 +81,15 @@ background: #5fcf80
 
 /* ============ Media Query =============*/
 @media screen and (min-width: 450px) {
-}
+
     form {
       max-width: 480px;
     }
-
+  }
+  
 .container {
   display: flex;
   align-items: space-between;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
